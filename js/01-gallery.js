@@ -20,7 +20,7 @@ function newGallary(items) {
 ellGallery.innerHTML = newGallary(galleryItems);
 ellGallery.addEventListener("click", clickOn);
 function clickOn(event) {
-  
+
   event.preventDefault();
   
     const instance = basicLightbox.create(`<img src="${event.target.dataset.source}" width="800" height="600">`);
@@ -32,3 +32,4 @@ function clickOn(event) {
     }
   })
 }
+//
